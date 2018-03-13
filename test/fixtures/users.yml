@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+dinesh:
+  name: Dinesh Padisetti
+  email: dinesh.padisetti@gmail.com
+  role: 0
+  password_digest: <%= BCrypt::Password.create('password') %>
+
+vaishnavi:
+  name: Adella Vaishnavi
+  email: adella.vaishnavi@gmail.com
+  role: 0
+  password_digest: <%= BCrypt::Password.create('password') %>

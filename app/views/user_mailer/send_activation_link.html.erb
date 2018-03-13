@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Deposits Account App</h1>
+    <p>Hi <%= @user.name %>,</p>
+    <p>
+      Click the link below to activate your account:
+    </p>
+    <%= link_to "Activate", edit_account_activation_url(@user.activation_token, email: @user.email) %>
+  </body>
+</html>

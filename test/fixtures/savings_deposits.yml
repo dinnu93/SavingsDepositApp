@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+deposit_one:
+  bank_name: Bank of America
+  account_number: 000123456789
+  initial_amount: 1000.00
+  start_date: 2018-02-22 17:37:22
+  end_date: 2028-02-22 17:37:22
+  interest_percentage: 9.99
+  taxes_percentage: 9.99
+  user: dinesh
+
+deposit_two:
+  bank_name: Wells Fargo
+  account_number: 0123456789101112
+  initial_amount: 2000.00
+  start_date: 2018-02-20 17:37:22
+  end_date: 2018-02-20 17:37:22
+  interest_percentage: 9.99
+  taxes_percentage: 9.99
+  user: vaishnavi
